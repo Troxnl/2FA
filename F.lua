@@ -15,7 +15,7 @@ local function checklisting(uid, gems, item, version, shiny, amount, username, p
         task.wait(3.01)
           game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
-   elseif item == "Lucky Block" and gems <= 250000 then
+   elseif item == "Lucky Block" and gems <= 10000 then
         task.wait(3.01)
           game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
@@ -43,7 +43,7 @@ local function checklisting(uid, gems, item, version, shiny, amount, username, p
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
-   elseif item == "Crystal Key Lower Half" and gems <= 5000 then
+   elseif item == "Crystal Key Lower Half" and gems <= 2000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
@@ -63,11 +63,11 @@ local function checklisting(uid, gems, item, version, shiny, amount, username, p
 	task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
-   elseif item == "Coins Charm" and gems <= 20000 then
+   elseif item == "Coins Charm" and gems <= 5000 then
 	task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
    
-   elseif item == "Bonus Charm" and gems <= 10000 then
+   elseif item == "Bonus Charm" and gems <= 2000 then
 	task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
 
@@ -79,27 +79,27 @@ local function checklisting(uid, gems, item, version, shiny, amount, username, p
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
    
-   elseif item == "Strong Pets VII" and gems <= 50000 then
+   elseif item == "Strong Pets VIII" and gems <= 50000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
     
-   elseif item == "Treasure Hunter VII" and gems <= 50000 then
+   elseif item == "Treasure Hunter VIII" and gems <= 50000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
    
-   elseif item == "Lucky Eggs VII" and gems <= 50000 then
+   elseif item == "Lucky Eggs VIII" and gems <= 50000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
    
-   elseif item == "Strong Pets VI" and gems <= 20000 then
+   elseif item == "Strong Pets VI" and gems <= 10000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
     
-   elseif item == "Treasure Hunter VI" and gems <= 20000 then
+   elseif item == "Treasure Hunter VI" and gems <= 10000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
    
-   elseif item == "Lucky Eggs VI" and gems <= 20000 then
+   elseif item == "Lucky Eggs VI" and gems <= 10000 then
         task.wait(3.01)
         game:GetService("ReplicatedStorage").Network.Booths_RequestPurchase:InvokeServer(playerid, uid)
         
